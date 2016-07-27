@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "008_String to Integer (atoi
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "009_Palindrome Number", "009_Palindrome Number\009_Palindrome Number.vcxproj", "{57E3CE2C-0153-4691-BFC5-A9940EEEFE48}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "010_Regular Expression Matching", "010_Regular Expression Matching\010_Regular Expression Matching.vcxproj", "{C9B91623-B9C6-4B0F-B681-B8DB15307C51}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -63,6 +65,10 @@ Global
 		{57E3CE2C-0153-4691-BFC5-A9940EEEFE48}.Debug|Win32.Build.0 = Debug|Win32
 		{57E3CE2C-0153-4691-BFC5-A9940EEEFE48}.Release|Win32.ActiveCfg = Release|Win32
 		{57E3CE2C-0153-4691-BFC5-A9940EEEFE48}.Release|Win32.Build.0 = Release|Win32
+		{C9B91623-B9C6-4B0F-B681-B8DB15307C51}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C9B91623-B9C6-4B0F-B681-B8DB15307C51}.Debug|Win32.Build.0 = Debug|Win32
+		{C9B91623-B9C6-4B0F-B681-B8DB15307C51}.Release|Win32.ActiveCfg = Release|Win32
+		{C9B91623-B9C6-4B0F-B681-B8DB15307C51}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
