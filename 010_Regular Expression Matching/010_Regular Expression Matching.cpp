@@ -26,7 +26,9 @@ public:
 						++sc;
 					}
 				}
+				return isMatch(s.substr(sc - s.c_str()), p.substr(pc - p.c_str()));
 			} else {
+				if (*sc == 0)	break;
 				if (*pc == '.') {
 					++pc;
 					++sc;
@@ -43,6 +45,6 @@ public:
 };
 int main(int argc, char** argv) {
 	Solution solution;
-	cout << solution.isMatch("aaaccbccbcbaabcaa", "c*a*.*a*.*c*.c*.a*c") << endl;
+	cout << solution.isMatch("a", ".*..a*") << endl;
 	return 0;
 }
