@@ -27,6 +27,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "011_Container With Most Wat
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "012_Integer to Roman", "012_Integer to Roman\012_Integer to Roman.vcxproj", "{24D0A203-63D1-46D1-825C-7A3BD135D893}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "013_Roman to Integer", "013_Roman to Integer\013_Roman to Integer.vcxproj", "{A80281A1-233A-42AF-8045-8A6D6DA3EB05}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -81,6 +83,10 @@ Global
 		{24D0A203-63D1-46D1-825C-7A3BD135D893}.Debug|Win32.Build.0 = Debug|Win32
 		{24D0A203-63D1-46D1-825C-7A3BD135D893}.Release|Win32.ActiveCfg = Release|Win32
 		{24D0A203-63D1-46D1-825C-7A3BD135D893}.Release|Win32.Build.0 = Release|Win32
+		{A80281A1-233A-42AF-8045-8A6D6DA3EB05}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A80281A1-233A-42AF-8045-8A6D6DA3EB05}.Debug|Win32.Build.0 = Debug|Win32
+		{A80281A1-233A-42AF-8045-8A6D6DA3EB05}.Release|Win32.ActiveCfg = Release|Win32
+		{A80281A1-233A-42AF-8045-8A6D6DA3EB05}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
