@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "009_Palindrome Number", "00
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "010_Regular Expression Matching", "010_Regular Expression Matching\010_Regular Expression Matching.vcxproj", "{C9B91623-B9C6-4B0F-B681-B8DB15307C51}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "011_Container With Most Water", "011_Container With Most Water\011_Container With Most Water.vcxproj", "{1211A641-C618-4F34-BAF7-AAC395867E9F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -69,6 +71,10 @@ Global
 		{C9B91623-B9C6-4B0F-B681-B8DB15307C51}.Debug|Win32.Build.0 = Debug|Win32
 		{C9B91623-B9C6-4B0F-B681-B8DB15307C51}.Release|Win32.ActiveCfg = Release|Win32
 		{C9B91623-B9C6-4B0F-B681-B8DB15307C51}.Release|Win32.Build.0 = Release|Win32
+		{1211A641-C618-4F34-BAF7-AAC395867E9F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1211A641-C618-4F34-BAF7-AAC395867E9F}.Debug|Win32.Build.0 = Debug|Win32
+		{1211A641-C618-4F34-BAF7-AAC395867E9F}.Release|Win32.ActiveCfg = Release|Win32
+		{1211A641-C618-4F34-BAF7-AAC395867E9F}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
