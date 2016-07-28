@@ -29,6 +29,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "012_Integer to Roman", "012
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "013_Roman to Integer", "013_Roman to Integer\013_Roman to Integer.vcxproj", "{A80281A1-233A-42AF-8045-8A6D6DA3EB05}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "014_Longest Common Prefix", "014_Longest Common Prefix\014_Longest Common Prefix.vcxproj", "{82F47751-D723-4D0D-9C1F-8EAAD367F5D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -87,6 +89,10 @@ Global
 		{A80281A1-233A-42AF-8045-8A6D6DA3EB05}.Debug|Win32.Build.0 = Debug|Win32
 		{A80281A1-233A-42AF-8045-8A6D6DA3EB05}.Release|Win32.ActiveCfg = Release|Win32
 		{A80281A1-233A-42AF-8045-8A6D6DA3EB05}.Release|Win32.Build.0 = Release|Win32
+		{82F47751-D723-4D0D-9C1F-8EAAD367F5D9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{82F47751-D723-4D0D-9C1F-8EAAD367F5D9}.Debug|Win32.Build.0 = Debug|Win32
+		{82F47751-D723-4D0D-9C1F-8EAAD367F5D9}.Release|Win32.ActiveCfg = Release|Win32
+		{82F47751-D723-4D0D-9C1F-8EAAD367F5D9}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
