@@ -10,27 +10,38 @@ public:
 		vector<vector<int>> result;
 		vector<int> resultTemp;
 		resultTemp.resize(3);
-		int size = nums.size();
+		sort(nums.begin(), nums.end());
+		unsigned int size = nums.size();
 		for (int i = 0; i < size - 2; ++i) {
+			if (i > 0 && nums[i] == nums[i - 1]) {
+				continue;
+			}
 			for (int j = i + 1; j < size - 1; ++j) {
 				if (j - 1 > i&&nums[j] == nums[j - 1]) {
 					continue;
 				}
-				int f = -nums[i] - nums[j];
-				for (int k = j + 1; k < size; ++k) {
-					if (nums[k] == f) {
+				int head = j + 1, tail = size - 1, k, f = -nums[i] - nums[j];
+				if (nums[head] <= f&&nums[tail] >= f) {
+					while (head < tail - 1) {
+						k = (head + tail) / 2;
+						if (nums[k] < f) {
+							head = k;
+						} else {
+							tail = k;
+						}
+					}
+					if (nums[head] == f) {
 						resultTemp[0] = nums[i];
 						resultTemp[1] = nums[j];
-						resultTemp[2] = f;
-						bool push = true;
-						sort(resultTemp.begin(), resultTemp.end());
-						for (vector<int> t : result) {
-							if (t[0] == resultTemp[0] && t[1] == resultTemp[1] && t[2] == resultTemp[2]) {
-								push = false;
-								break;
-							}
+						resultTemp[2] = nums[head];
+						if (result.empty() || result.back()[0] != resultTemp[0] || result.back()[1] != resultTemp[1] || result.back()[2] != resultTemp[2]) {
+							result.push_back(resultTemp);
 						}
-						if (push) {
+					} else if (nums[tail] == f) {
+						resultTemp[0] = nums[i];
+						resultTemp[1] = nums[j];
+						resultTemp[2] = nums[tail];
+						if (result.empty() || result.back()[0] != resultTemp[0] || result.back()[1] != resultTemp[1] || result.back()[2] != resultTemp[2]) {
 							result.push_back(resultTemp);
 						}
 					}
