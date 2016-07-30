@@ -39,6 +39,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "017_Letter Combinations of 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "018_4Sum", "018_4Sum\018_4Sum.vcxproj", "{5F69A691-6C97-4E43-9E3D-2CF880CCA487}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "019_Remove Nth Node From End of List", "019_Remove Nth Node From End of List\019_Remove Nth Node From End of List.vcxproj", "{0ABF3E7A-C3E1-4CE4-88EB-7FBE1B95E08F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -117,6 +119,10 @@ Global
 		{5F69A691-6C97-4E43-9E3D-2CF880CCA487}.Debug|Win32.Build.0 = Debug|Win32
 		{5F69A691-6C97-4E43-9E3D-2CF880CCA487}.Release|Win32.ActiveCfg = Release|Win32
 		{5F69A691-6C97-4E43-9E3D-2CF880CCA487}.Release|Win32.Build.0 = Release|Win32
+		{0ABF3E7A-C3E1-4CE4-88EB-7FBE1B95E08F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0ABF3E7A-C3E1-4CE4-88EB-7FBE1B95E08F}.Debug|Win32.Build.0 = Debug|Win32
+		{0ABF3E7A-C3E1-4CE4-88EB-7FBE1B95E08F}.Release|Win32.ActiveCfg = Release|Win32
+		{0ABF3E7A-C3E1-4CE4-88EB-7FBE1B95E08F}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
