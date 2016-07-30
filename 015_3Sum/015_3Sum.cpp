@@ -35,37 +35,6 @@ public:
 					} while (tail > head&&nums[tail] == resultTemp[2]);
 				}
 			}
-			// 			for (int j = i + 1; j < size - 1; ++j) {
-			// 				if (j - 1 > i&&nums[j] == nums[j - 1]) {
-			// 					continue;
-			// 				}
-			// 				int head = j + 1, tail = size - 1, k, f = -nums[i] - nums[j];
-			// 				if (nums[head] <= f&&nums[tail] >= f) {
-			// 					while (head < tail - 1) {
-			// 						k = (head + tail) / 2;
-			// 						if (nums[k] < f) {
-			// 							head = k;
-			// 						} else {
-			// 							tail = k;
-			// 						}
-			// 					}
-			// 					if (nums[head] == f) {
-			// 						resultTemp[0] = nums[i];
-			// 						resultTemp[1] = nums[j];
-			// 						resultTemp[2] = nums[head];
-			// 						if (result.empty() || result.back()[0] != resultTemp[0] || result.back()[1] != resultTemp[1] || result.back()[2] != resultTemp[2]) {
-			// 							result.push_back(resultTemp);
-			// 						}
-			// 					} else if (nums[tail] == f) {
-			// 						resultTemp[0] = nums[i];
-			// 						resultTemp[1] = nums[j];
-			// 						resultTemp[2] = nums[tail];
-			// 						if (result.empty() || result.back()[0] != resultTemp[0] || result.back()[1] != resultTemp[1] || result.back()[2] != resultTemp[2]) {
-			// 							result.push_back(resultTemp);
-			// 						}
-			// 					}
-			// 				}
-			// 			}
 		}
 		return result;
 	}
