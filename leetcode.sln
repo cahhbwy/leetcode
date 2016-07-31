@@ -55,6 +55,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "025_Reverse Nodes in k-Grou
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "026_Remove Duplicates from Sorted Array", "026_Remove Duplicates from Sorted Array\026_Remove Duplicates from Sorted Array.vcxproj", "{E3D18349-EABC-4A29-B7A8-1BFE4E21D651}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "027_Remove Element", "027_Remove Element\027_Remove Element.vcxproj", "{600A1DF0-D634-4E23-A96D-E6CC9471C93A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -165,6 +167,10 @@ Global
 		{E3D18349-EABC-4A29-B7A8-1BFE4E21D651}.Debug|Win32.Build.0 = Debug|Win32
 		{E3D18349-EABC-4A29-B7A8-1BFE4E21D651}.Release|Win32.ActiveCfg = Release|Win32
 		{E3D18349-EABC-4A29-B7A8-1BFE4E21D651}.Release|Win32.Build.0 = Release|Win32
+		{600A1DF0-D634-4E23-A96D-E6CC9471C93A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{600A1DF0-D634-4E23-A96D-E6CC9471C93A}.Debug|Win32.Build.0 = Debug|Win32
+		{600A1DF0-D634-4E23-A96D-E6CC9471C93A}.Release|Win32.ActiveCfg = Release|Win32
+		{600A1DF0-D634-4E23-A96D-E6CC9471C93A}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
