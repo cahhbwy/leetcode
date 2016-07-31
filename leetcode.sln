@@ -51,6 +51,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "023_Merge k Sorted Lists", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "024_Swap Nodes in Pairs", "024_Swap Nodes in Pairs\024_Swap Nodes in Pairs.vcxproj", "{50EB0078-CDA5-42B9-9424-57EB046E4F19}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "025_Reverse Nodes in k-Group", "025_Reverse Nodes in k-Group\025_Reverse Nodes in k-Group.vcxproj", "{1EC86CAA-2BA2-4E84-A461-A130442AB12C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -153,6 +155,10 @@ Global
 		{50EB0078-CDA5-42B9-9424-57EB046E4F19}.Debug|Win32.Build.0 = Debug|Win32
 		{50EB0078-CDA5-42B9-9424-57EB046E4F19}.Release|Win32.ActiveCfg = Release|Win32
 		{50EB0078-CDA5-42B9-9424-57EB046E4F19}.Release|Win32.Build.0 = Release|Win32
+		{1EC86CAA-2BA2-4E84-A461-A130442AB12C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1EC86CAA-2BA2-4E84-A461-A130442AB12C}.Debug|Win32.Build.0 = Debug|Win32
+		{1EC86CAA-2BA2-4E84-A461-A130442AB12C}.Release|Win32.ActiveCfg = Release|Win32
+		{1EC86CAA-2BA2-4E84-A461-A130442AB12C}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
