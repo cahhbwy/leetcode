@@ -26,29 +26,26 @@ public:
 		}
 		return l->next;
 // 		ListNode *head = new ListNode(0), *p = head;
-// 		vector<ListNode*>::iterator it;
-// 		int min;
+// 		vector<ListNode*>::iterator it, min;
 // 		for (it = lists.begin(); it != lists.end();) {
 // 			if (!*it) {
-// 				lists.erase(it);
-// 				it = lists.begin();
+// 				it = lists.erase(it);
 // 			} else {
 // 				++it;
 // 			}
 // 		}
 // 		while (!lists.empty()) {
-// 			min = 0;
-// 			for (int i = 0; i < lists.size(); ++i) {
-// 				if (lists[min]->val > lists[i]->val) {
-// 					min = i;
+// 			min = lists.begin();
+// 			for (it = lists.begin(); it != lists.end();++it) {
+// 				if ((*min)->val>(*it)->val) {
+// 					min = it;
 // 				}
 // 			}
-// 			p->next = lists[min];
-// 			lists[min] = lists[min]->next;
+// 			p->next = *min;
+// 			*min = (*min)->next;
 // 			p = p->next;
-// 			if (!lists[min]) {
-// 				it = lists.begin() + min;
-// 				lists.erase(it);
+// 			if (!*min) {
+// 				lists.erase(min);
 // 			}
 // 		}
 // 		return head->next;
