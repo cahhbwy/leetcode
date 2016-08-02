@@ -59,6 +59,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "027_Remove Element", "027_R
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "028_Implement strStr()", "028_Implement strStr()\028_Implement strStr().vcxproj", "{084E67C9-DEA9-471C-AD18-12F2DEB5101E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "029_Divide Two Integers", "029_Divide Two Integers\029_Divide Two Integers.vcxproj", "{07333170-4AA7-4113-893B-8DA7CBD35AD8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -177,6 +179,10 @@ Global
 		{084E67C9-DEA9-471C-AD18-12F2DEB5101E}.Debug|Win32.Build.0 = Debug|Win32
 		{084E67C9-DEA9-471C-AD18-12F2DEB5101E}.Release|Win32.ActiveCfg = Release|Win32
 		{084E67C9-DEA9-471C-AD18-12F2DEB5101E}.Release|Win32.Build.0 = Release|Win32
+		{07333170-4AA7-4113-893B-8DA7CBD35AD8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{07333170-4AA7-4113-893B-8DA7CBD35AD8}.Debug|Win32.Build.0 = Debug|Win32
+		{07333170-4AA7-4113-893B-8DA7CBD35AD8}.Release|Win32.ActiveCfg = Release|Win32
+		{07333170-4AA7-4113-893B-8DA7CBD35AD8}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
