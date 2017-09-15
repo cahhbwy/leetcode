@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.16
+VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "001_Two Sum", "001_Two Sum\001_Two Sum.vcxproj", "{38F44A39-D4E5-4F9D-A839-E6E341702FF8}"
 EndProject
@@ -63,7 +63,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "029_Divide Two Integers", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "030_Substring with Concatenation of All Words", "030_Substring with Concatenation of All Words\030_Substring with Concatenation of All Words.vcxproj", "{556D7E1C-BE78-41C5-889D-CBE7135FAA56}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "031_Next Permutation", "31_Next Permutation\31_Next Permutation.vcxproj", "{2A655C5B-870B-44C7-B643-F7C2F202394E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "031_Next Permutation", "031_Next Permutation\031_Next Permutation.vcxproj", "{2A655C5B-870B-44C7-B643-F7C2F202394E}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "038_Count and Say", "038_Count and Say\038_Count and Say.vcxproj", "{202C626E-B03A-4652-9E59-37D64A9C0D02}"
 EndProject
@@ -74,6 +74,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "119_Pascal's Triangle II", "119_Pascal's Triangle II\119_Pascal's Triangle II.vcxproj", "{E8D2BDCF-DA66-4C98-AF08-744A54733745}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "032_Longest Valid Parentheses", "032_Longest Valid Parentheses\032_Longest Valid Parentheses.vcxproj", "{8E594729-CB52-4A9C-8A16-52498B5CAE79}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "033_Search in Rotated Sorted Array", "033_Search in Rotated Sorted Array\033_Search in Rotated Sorted Array.vcxproj", "{4C649857-DB9F-4C14-91A8-B5FD0D41A5AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -313,8 +315,19 @@ Global
 		{8E594729-CB52-4A9C-8A16-52498B5CAE79}.Release|Win32.Build.0 = Release|Win32
 		{8E594729-CB52-4A9C-8A16-52498B5CAE79}.Release|x64.ActiveCfg = Release|x64
 		{8E594729-CB52-4A9C-8A16-52498B5CAE79}.Release|x64.Build.0 = Release|x64
+		{4C649857-DB9F-4C14-91A8-B5FD0D41A5AB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4C649857-DB9F-4C14-91A8-B5FD0D41A5AB}.Debug|Win32.Build.0 = Debug|Win32
+		{4C649857-DB9F-4C14-91A8-B5FD0D41A5AB}.Debug|x64.ActiveCfg = Debug|x64
+		{4C649857-DB9F-4C14-91A8-B5FD0D41A5AB}.Debug|x64.Build.0 = Debug|x64
+		{4C649857-DB9F-4C14-91A8-B5FD0D41A5AB}.Release|Win32.ActiveCfg = Release|Win32
+		{4C649857-DB9F-4C14-91A8-B5FD0D41A5AB}.Release|Win32.Build.0 = Release|Win32
+		{4C649857-DB9F-4C14-91A8-B5FD0D41A5AB}.Release|x64.ActiveCfg = Release|x64
+		{4C649857-DB9F-4C14-91A8-B5FD0D41A5AB}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ABDF40EF-9B87-48D2-8D16-CBEDDC0CD33E}
 	EndGlobalSection
 EndGlobal
