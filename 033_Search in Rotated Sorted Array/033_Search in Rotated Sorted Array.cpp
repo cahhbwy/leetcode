@@ -30,7 +30,8 @@ public:
 };
 int main(int argc, char **argv) {
 	Solution solution;
-	cout << solution.search(vector<int>{3, 4, 5, 1, 2}, 1) << endl;
+	vector<int> sample({ 3, 4, 5, 1, 2 });
+	cout << solution.search(sample, 1) << endl;
 	system("pause");
 	return 0;
 }

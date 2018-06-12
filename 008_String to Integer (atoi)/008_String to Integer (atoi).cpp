@@ -17,7 +17,7 @@ public:
 		while (*c >= '0'&&*c <= '9') {
 			next = result * 10 + *c - '0';
 			if (next / 10 != result) {
-				return symbol ? 2147483647 : -2147483648;
+				return symbol ? 2147483647 : -2147483648L;
 			}
 			result = next;
 			++c;
