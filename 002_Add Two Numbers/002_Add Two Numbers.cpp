@@ -9,7 +9,7 @@ struct ListNode {
 };
 class Solution {
 public:
-	ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
+	ListNode * addTwoNumbers(ListNode* l1, ListNode* l2) {
 		ListNode *result = new ListNode(0);
 		ListNode *p1 = l1, *p2 = l2, *pr = result;
 		int carry = 0;
@@ -37,7 +37,7 @@ public:
 				p2 = p2->next;
 				p2->val += 1;
 			}
-		} else if (p1&&!p2) {
+		} else if (p1 && !p2) {
 			pr->next = p1;
 			if (carry) {
 				p1->val += 1;

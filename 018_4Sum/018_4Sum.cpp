@@ -22,7 +22,7 @@ public:
 				}
 				int head = j + 1, tail = size - 1, f = target - nums[i] - nums[j];
 				while (head < tail) {
-					if (nums[head] + nums[tail]>f) {
+					if (nums[head] + nums[tail] > f) {
 						--tail;
 					} else if (nums[head] + nums[tail] < f) {
 						++head;

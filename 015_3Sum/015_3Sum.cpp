@@ -18,7 +18,7 @@ public:
 			}
 			int head = i + 1, tail = size - 1, f = -nums[i];
 			while (head < tail) {
-				if (nums[head] + nums[tail]>f) {
+				if (nums[head] + nums[tail] > f) {
 					--tail;
 				} else if (nums[head] + nums[tail] < f) {
 					++head;
@@ -41,7 +41,7 @@ public:
 };
 int main(int argc, char** argv) {
 	Solution solution;
-	vector<int> nums = { -2, 0, 0, 2, 2};
+	vector<int> nums = { -2, 0, 0, 2, 2 };
 	vector<vector<int>> result = solution.threeSum(nums);
 	for (auto i : result) {
 		cout << "[";

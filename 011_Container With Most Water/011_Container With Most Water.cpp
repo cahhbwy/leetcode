@@ -14,11 +14,11 @@ public:
 					if (height[j] > rightMH) {
 						rightMH = height[j];
 						if (leftMH < rightMH) {
-							tempA = leftMH*(j - i);
+							tempA = leftMH * (j - i);
 							maxA = maxA > tempA ? maxA : tempA;
 							break;
 						} else {
-							tempA = rightMH*(j - i);
+							tempA = rightMH * (j - i);
 							maxA = maxA > tempA ? maxA : tempA;
 						}
 					}

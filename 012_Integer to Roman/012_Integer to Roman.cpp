@@ -26,7 +26,7 @@ public:
 			case 0:break;
 			default:break;
 		}
-		switch (num/10%10) {
+		switch (num / 10 % 10) {
 			case 9:s = s.append("XC"); break;
 			case 8:s = s.append("LXXX"); break;
 			case 7:s = s.append("LXX"); break;

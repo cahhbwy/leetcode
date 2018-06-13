@@ -99,7 +99,7 @@ public:
 			} else {
 				if (nums1[m10] < nums2[m20]) {
 					return nums2[m20];
-				} else if (nums1[m10]>nums2[m21]) {
+				} else if (nums1[m10] > nums2[m21]) {
 					return nums2[m21];
 				} else {
 					return nums1[m10];
@@ -118,7 +118,7 @@ public:
 			} else {
 				if (nums2[m20] < nums1[m10]) {
 					return nums1[m10];
-				} else if (nums2[m20]>nums1[m11]) {
+				} else if (nums2[m20] > nums1[m11]) {
 					return nums1[m11];
 				} else {
 					return nums2[m20];

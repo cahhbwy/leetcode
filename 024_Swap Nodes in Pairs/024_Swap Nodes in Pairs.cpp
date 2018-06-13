@@ -7,7 +7,7 @@ struct ListNode {
 };
 class Solution {
 public:
-	ListNode* swapPairs(ListNode* head) {
+	ListNode * swapPairs(ListNode* head) {
 		ListNode *pp, *p, *q;
 		if (!head || !head->next) {
 			return head;

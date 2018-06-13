@@ -12,7 +12,7 @@ public:
 			if (nums[b] == target)
 				return b;
 			if (nums[a] <= nums[b]) {
-				if (nums[a] <= target&&target < nums[b]) {
+				if (nums[a] <= target && target < nums[b]) {
 					c = b;
 				} else {
 					a = b + 1;

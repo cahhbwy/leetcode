@@ -52,8 +52,7 @@ public:
 				temp[a] = temp[b] = '_';
 				while (temp[--a] == '_');
 				++b;
-			}
-			else {
+			} else {
 				a = b;
 				++b;
 			}
@@ -63,8 +62,7 @@ public:
 		while (*c) {
 			if (*c == '_') {
 				++tmp;
-			}
-			else {
+			} else {
 				result = result < tmp ? tmp : result;
 				tmp = 0;
 			}

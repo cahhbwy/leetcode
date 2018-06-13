@@ -13,7 +13,7 @@ public:
 				++q; ++i;
 			}
 			--q; --i;
-			while (p >= start&&q <= end && (*p == *q)) {
+			while (p >= start && q <= end && (*p == *q)) {
 				--p; ++q;
 			}
 			++p; --q;

@@ -8,7 +8,7 @@ struct ListNode {
 };
 class Solution {
 public:
-	ListNode* removeNthFromEnd_r(ListNode* head, int &n) {	//ตÝน้
+	ListNode * removeNthFromEnd_r(ListNode* head, int &n) {	//ตÝน้
 		if (!head)	return NULL;
 		head->next = removeNthFromEnd_r(head->next, n);
 		--n;

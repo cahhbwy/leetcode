@@ -7,12 +7,12 @@ struct ListNode {
 };
 class Solution {
 public:
-	ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
-		if (l1&&!l2) {
+	ListNode * mergeTwoLists(ListNode* l1, ListNode* l2) {
+		if (l1 && !l2) {
 			return l1;
 		} else if (!l1&&l2) {
 			return l2;
-		} else if (!l1&&!l2) {
+		} else if (!l1 && !l2) {
 			return NULL;
 		}
 		ListNode *l, *p;
@@ -34,7 +34,7 @@ public:
 			}
 			p = p->next;
 		}
-		if (l1&&!l2) {
+		if (l1 && !l2) {
 			p->next = l1;
 		} else {
 			p->next = l2;

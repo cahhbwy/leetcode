@@ -9,7 +9,7 @@ struct ListNode {
 };
 class Solution {
 public:
-	ListNode* mergeKLists(vector<ListNode*>& lists) {
+	ListNode * mergeKLists(vector<ListNode*>& lists) {
 		priority_queue<int> temp;
 		for (ListNode *head : lists) {
 			ListNode *p = head;
@@ -25,30 +25,30 @@ public:
 			temp.pop();
 		}
 		return l->next;
-// 		ListNode *head = new ListNode(0), *p = head;
-// 		vector<ListNode*>::iterator it, min;
-// 		for (it = lists.begin(); it != lists.end();) {
-// 			if (!*it) {
-// 				it = lists.erase(it);
-// 			} else {
-// 				++it;
-// 			}
-// 		}
-// 		while (!lists.empty()) {
-// 			min = lists.begin();
-// 			for (it = lists.begin(); it != lists.end();++it) {
-// 				if ((*min)->val>(*it)->val) {
-// 					min = it;
-// 				}
-// 			}
-// 			p->next = *min;
-// 			*min = (*min)->next;
-// 			p = p->next;
-// 			if (!*min) {
-// 				lists.erase(min);
-// 			}
-// 		}
-// 		return head->next;
+		// 		ListNode *head = new ListNode(0), *p = head;
+		// 		vector<ListNode*>::iterator it, min;
+		// 		for (it = lists.begin(); it != lists.end();) {
+		// 			if (!*it) {
+		// 				it = lists.erase(it);
+		// 			} else {
+		// 				++it;
+		// 			}
+		// 		}
+		// 		while (!lists.empty()) {
+		// 			min = lists.begin();
+		// 			for (it = lists.begin(); it != lists.end();++it) {
+		// 				if ((*min)->val>(*it)->val) {
+		// 					min = it;
+		// 				}
+		// 			}
+		// 			p->next = *min;
+		// 			*min = (*min)->next;
+		// 			p = p->next;
+		// 			if (!*min) {
+		// 				lists.erase(min);
+		// 			}
+		// 		}
+		// 		return head->next;
 	}
 	ListNode* generate(int size) {
 		if (size <= 0) return NULL;
