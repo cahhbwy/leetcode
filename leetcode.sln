@@ -77,6 +77,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "118_Pascal's Triangle", "11
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "119_Pascal's Triangle II", "119_Pascal's Triangle II\119_Pascal's Triangle II.vcxproj", "{7895BB6B-5088-4708-B062-0F3552E48DAB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "034_Search for a Range", "034_Search for a Range\034_Search for a Range.vcxproj", "{3EB8CF79-A14E-47BC-A80B-3E6D39C3BC15}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -381,6 +383,14 @@ Global
 		{7895BB6B-5088-4708-B062-0F3552E48DAB}.Release|x64.Build.0 = Release|x64
 		{7895BB6B-5088-4708-B062-0F3552E48DAB}.Release|x86.ActiveCfg = Release|Win32
 		{7895BB6B-5088-4708-B062-0F3552E48DAB}.Release|x86.Build.0 = Release|Win32
+		{3EB8CF79-A14E-47BC-A80B-3E6D39C3BC15}.Debug|x64.ActiveCfg = Debug|x64
+		{3EB8CF79-A14E-47BC-A80B-3E6D39C3BC15}.Debug|x64.Build.0 = Debug|x64
+		{3EB8CF79-A14E-47BC-A80B-3E6D39C3BC15}.Debug|x86.ActiveCfg = Debug|Win32
+		{3EB8CF79-A14E-47BC-A80B-3E6D39C3BC15}.Debug|x86.Build.0 = Debug|Win32
+		{3EB8CF79-A14E-47BC-A80B-3E6D39C3BC15}.Release|x64.ActiveCfg = Release|x64
+		{3EB8CF79-A14E-47BC-A80B-3E6D39C3BC15}.Release|x64.Build.0 = Release|x64
+		{3EB8CF79-A14E-47BC-A80B-3E6D39C3BC15}.Release|x86.ActiveCfg = Release|Win32
+		{3EB8CF79-A14E-47BC-A80B-3E6D39C3BC15}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
