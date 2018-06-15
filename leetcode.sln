@@ -69,14 +69,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "032_Longest Valid Parenthes
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "033_Search in Rotated Sorted Array", "033_Search in Rotated Sorted Array\033_Search in Rotated Sorted Array.vcxproj", "{129D4A91-8237-4142-AD04-CC04CA35EE6D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "038_Count and Say", "038_Count and Say\038_Count and Say.vcxproj", "{29CFC68B-5E01-470C-8C19-6D9A9A40E743}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "100_Same Tree", "100_Same Tree\100_Same Tree.vcxproj", "{FAB2F2E9-29C9-423A-B3B6-619E0BA65D64}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "118_Pascal's Triangle", "118_Pascal's Triangle\118_Pascal's Triangle.vcxproj", "{19542910-F19F-4258-BBD4-09791DCCABAE}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "119_Pascal's Triangle II", "119_Pascal's Triangle II\119_Pascal's Triangle II.vcxproj", "{7895BB6B-5088-4708-B062-0F3552E48DAB}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "034_Search for a Range", "034_Search for a Range\034_Search for a Range.vcxproj", "{3EB8CF79-A14E-47BC-A80B-3E6D39C3BC15}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "035_Search Insert Position", "035_Search Insert Position\035_Search Insert Position.vcxproj", "{3654BAFD-7C7B-4C92-B3DC-356BB6CD026B}"
@@ -84,6 +76,16 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "036_Valid Sudoku", "036_Valid Sudoku\036_Valid Sudoku.vcxproj", "{DD75955E-72FE-48F0-9ABC-D0D8D4DA14E3}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "037_Sudoku Solver", "037_Sudoku Solver\037_Sudoku Solver.vcxproj", "{6EB70F29-DAAE-42BA-B4B5-3836DA05F78C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "038_Count and Say", "038_Count and Say\038_Count and Say.vcxproj", "{29CFC68B-5E01-470C-8C19-6D9A9A40E743}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "041_First Missing Positive", "041_First Missing Positive\041_First Missing Positive.vcxproj", "{C50E352B-C96D-4509-AACC-1D0F18919C41}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "100_Same Tree", "100_Same Tree\100_Same Tree.vcxproj", "{FAB2F2E9-29C9-423A-B3B6-619E0BA65D64}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "118_Pascal's Triangle", "118_Pascal's Triangle\118_Pascal's Triangle.vcxproj", "{19542910-F19F-4258-BBD4-09791DCCABAE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "119_Pascal's Triangle II", "119_Pascal's Triangle II\119_Pascal's Triangle II.vcxproj", "{7895BB6B-5088-4708-B062-0F3552E48DAB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -421,6 +423,14 @@ Global
 		{6EB70F29-DAAE-42BA-B4B5-3836DA05F78C}.Release|x64.Build.0 = Release|x64
 		{6EB70F29-DAAE-42BA-B4B5-3836DA05F78C}.Release|x86.ActiveCfg = Release|Win32
 		{6EB70F29-DAAE-42BA-B4B5-3836DA05F78C}.Release|x86.Build.0 = Release|Win32
+		{C50E352B-C96D-4509-AACC-1D0F18919C41}.Debug|x64.ActiveCfg = Debug|x64
+		{C50E352B-C96D-4509-AACC-1D0F18919C41}.Debug|x64.Build.0 = Debug|x64
+		{C50E352B-C96D-4509-AACC-1D0F18919C41}.Debug|x86.ActiveCfg = Debug|Win32
+		{C50E352B-C96D-4509-AACC-1D0F18919C41}.Debug|x86.Build.0 = Debug|Win32
+		{C50E352B-C96D-4509-AACC-1D0F18919C41}.Release|x64.ActiveCfg = Release|x64
+		{C50E352B-C96D-4509-AACC-1D0F18919C41}.Release|x64.Build.0 = Release|x64
+		{C50E352B-C96D-4509-AACC-1D0F18919C41}.Release|x86.ActiveCfg = Release|Win32
+		{C50E352B-C96D-4509-AACC-1D0F18919C41}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
