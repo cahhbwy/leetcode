@@ -1,0 +1,1 @@
+add_executable(leetcode_050 "050_Pow(x, n).cpp")

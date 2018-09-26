@@ -1,0 +1,1 @@
+add_executable(leetcode_052 "052_N-Queens II.cpp")

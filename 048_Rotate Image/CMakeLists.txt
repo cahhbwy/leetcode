@@ -1,0 +1,1 @@
+add_executable(leetcode_048 "048_Rotate Image.cpp")
