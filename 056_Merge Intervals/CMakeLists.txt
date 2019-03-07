@@ -1,0 +1,1 @@
+add_executable(leetcode_056 "056_Merge Intervals.cpp")

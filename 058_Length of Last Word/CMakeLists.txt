@@ -1,0 +1,1 @@
+add_executable(leetcode_058 "058_Length of Last Word.cpp")

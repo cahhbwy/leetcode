@@ -1,0 +1,1 @@
+add_executable(leetcode_060 "060_Permutation Sequence.cpp")

@@ -58,6 +58,11 @@ ADD_SUBDIRECTORY("052_N-Queens II")
 ADD_SUBDIRECTORY("053_Maximum Subarray")
 ADD_SUBDIRECTORY("054_Spiral Matrix")
 ADD_SUBDIRECTORY("055_Jump Game")
+ADD_SUBDIRECTORY("056_Merge Intervals")
+ADD_SUBDIRECTORY("057_Insert Interval")
+ADD_SUBDIRECTORY("058_Length of Last Word")
+ADD_SUBDIRECTORY("059_Spiral Matrix II")
+ADD_SUBDIRECTORY("060_Permutation Sequence")
 
 ADD_SUBDIRECTORY("100_Same Tree")
 
