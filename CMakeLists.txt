@@ -63,6 +63,8 @@ ADD_SUBDIRECTORY("057_Insert Interval")
 ADD_SUBDIRECTORY("058_Length of Last Word")
 ADD_SUBDIRECTORY("059_Spiral Matrix II")
 ADD_SUBDIRECTORY("060_Permutation Sequence")
+ADD_SUBDIRECTORY("061_Rotate List")
+ADD_SUBDIRECTORY("062_Unique Paths")
 
 ADD_SUBDIRECTORY("100_Same Tree")
 
