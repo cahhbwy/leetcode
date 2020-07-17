@@ -65,6 +65,7 @@ ADD_SUBDIRECTORY("059_Spiral Matrix II")
 ADD_SUBDIRECTORY("060_Permutation Sequence")
 ADD_SUBDIRECTORY("061_Rotate List")
 ADD_SUBDIRECTORY("062_Unique Paths")
+ADD_SUBDIRECTORY("063_Unique Paths II")
 
 ADD_SUBDIRECTORY("100_Same Tree")
 
